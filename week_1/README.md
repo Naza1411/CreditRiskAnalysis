@@ -7,4 +7,4 @@ Fraud Risk: Fraud risk refers to the potential that an individual, organisation,
 Differences between Credit Risk and Fraud Risk: Fraud risk focuses on deception, lies, and fake identities, while credit risk focuses on whether a real person or business simply lacks the money or ability to pay back a loan. Credit risk is evaluated before disbursal, while fraud risk is monitored just after disbursal.
 
 
-
+![alt text](image.png)
