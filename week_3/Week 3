@@ -1,0 +1,9 @@
+## Answers
+- Payment Allocation Rule: There are various payment allocation rules, which includes:
+- First Due, First Paid (FIFO)
+- Interest First: Where every payment first clears Interest, Fees and Principal.
+- Latest Instalment First: This is rarely used. Here, the newest instalment is paid first. It is usually avoided because it leaves old debts unpaid.
+
+- Cedar MFB applies a First Due, First Paid (FIFO) allocation rule.
+This means that payments are allocated to the oldest unpaid instalment first. Where an instalment contains principal, interest, and the processing fee. The payment is first applied to interest and then to principal. Any remaining payment is allocated to the next oldest unpaid instalment. Payments exceeding all scheduled obligations are treated as prepayments.
+
