@@ -1,9 +1,9 @@
 # Week 3 Assignment
 ## Understanding Loan Terms
 
-- Arrears refer to overdue amounts after the payment due date for loans and mortgages. In simply means your payment is late.
+- Arrears refer to overdue amounts after the payment due date for loans and mortgages. It simply means that the borrower's payment is late.
 - Amount due is the sum amount required to pay off a specific installment.
-- Paid Amount is paying the full due amount which keeps your loan in good standing. Paying less can lead to late fees, and paying more reduces your overall debt faster.
+- Paid Amount is paying the full due amount which keeps your loan in good standing. Paying less can lead to late fees, and paying more reduces your overall debt faster. It is called prepayment.
 - Partial Payment refers to any payment made by a borrower that is less than the total installment amount due.
 - Oldest Unpaid Due Date (OUDD): The date of the earliest missed payment that remains completely or partially unpaid. This date anchors how loan lateness is calculated.
 - Days Past Due (DPD): The exact number of days a loan has been delinquent. It is calculated by counting the days from the Oldest Unpaid Due Date to the current date.

@@ -9,3 +9,5 @@ Differences between Credit Risk and Fraud Risk: Fraud risk focuses on deception,
 # Image of a Lending Cycle
 
 ![alt text](image.png)
+
+[text](<Synthetic Data.xlsx>)
