@@ -1,13 +1,22 @@
-Data grain is the combination of columns at which records in a table are unique. Understanding the right data grain is the key to trusted models and efficient transformations. It is critically important because it answers what questions can be answered with data. It impacts storage requirements and query performance. It affects the complexity of the data model and influences data integration capabilities.
+## Credit Risk Analysis at Cedar MFB — Week 1
 
-The difference between credit risk and fraud risk: In finance, risk is an inherent thing that individuals and businesses must navigate to achieve their goals. Understanding the various types of risk is vital for effective risk management and informed decision-making. Credit Risk: Credit risk refers to the potential that a borrower may fail to repay a loan or other debt, which can lead to financial losses for the lender or investor. This risk can arise in various financial instruments, such as loans, bonds, credit derivatives, and trade receivables. The borrower’s creditworthiness is among the factors that influence credit risk. Lenders and investors can manage credit risk by conducting in-depth credit evaluations and establishing reasonable interest rates and loan terms, amongst others.
+## Understanding the Lending Lifecycle and Building the Data Foundation
+# Introduction
 
-Fraud Risk: Fraud risk refers to the potential that an individual, organisation, or system might engage in deceptive or dishonest activities to achieve financial gain or other benefits. It involves the possibility of misrepresenting information, manipulating transactions, or exploiting vulnerabilities to deceive others. Organisations often assess and manage fraud risk to prevent or mitigate the impact of fraudulent activities.   
+As part of my journey into credit-risk analysis, I am taking on a simulated role as a Junior Credit-Risk Analyst at Cedar MFB, a fictional Nigerian microfinance bank.
 
-Differences between Credit Risk and Fraud Risk: Fraud risk focuses on deception, lies, and fake identities, while credit risk focuses on whether a real person or business simply lacks the money or ability to pay back a loan. Credit risk is evaluated before disbursal, while fraud risk is monitored just after disbursal.
+My first assignment was not to calculate complicated credit-risk metrics. Instead, the objective was to understand the business process behind lending and the data generated throughout that process.
 
-# Image of a Lending Cycle
+Before a credit-risk analyst can calculate delinquency, arrears or portfolio risk, they need to understand where the data comes from, how the different datasets are connected, and what each field represents.
 
-![alt text](image.png)
+Therefore, Week 1 focused on building the foundation for a credit-risk analysis project.
+The central question I explored was:
 
-[text](<Synthetic Data.xlsx>)
+How does a loan move from application to final repayment or write-off, and what data is produced at each stage?
+
+To answer this, I studied the lending lifecycle, created a data dictionary, built a small synthetic lending dataset in Excel, identified credit-risk questions that could be answered from the data, and performed basic data-quality checks.
+## The Cedar MFB Lending Lifecycle
+A loan does not simply appear in the system as a loan. It passes through several stages. Understanding the different stages in the lifecycle is important because each stage produces different data.
+
+#### Image of a Lending lifecycle
+![alt text](LendingCycle.jpg)

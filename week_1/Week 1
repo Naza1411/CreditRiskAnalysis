@@ -1,12 +1,42 @@
+## Credit Risk Analysis at Cedar MFB — Week 1
+## Understanding Risk in Financial Services
+
+Before focusing specifically on credit risk, I first looked at the different types of risk that a financial institution can face.
+
+ Credit risk is the risk that a borrower will fail to meet their financial obligations according to the agreed terms.
+ 
+  For a microfinance bank, examples include:
+
+- A customer failing to repay a loan.
+- A customer making only partial repayments.
+- A borrower becoming seriously delinquent.
+- A loan eventually being written off.
+
+Credit risk is the main focus of this project.
+
+Fraud Risk: Fraud risk relates to intentional deception designed to obtain money, avoid an obligation or manipulate a financial process.
+For example, a person could provide false information during a loan application or use another person's identity.
+
+Although fraud and credit risk can sometimes overlap, they are not the same thing. A customer who cannot repay a genuine loan may represent credit risk, while a person who deliberately provides false information to obtain a loan may represent fraud risk.
+
+Operational Risk: Operational risk arises from failures in internal processes, people, systems or external events.
+For example: A system incorrectly records a repayment.
+An employee enters the wrong loan amount.
+A technical failure prevents a payment from being processed.
+
+Liquidity Risk: Liquidity risk is the risk that an institution does not have enough available funds to meet its financial obligations when they become due. For a lender, this is important because the institution needs enough liquidity to meet withdrawals, operating expenses and other obligations.
+Market Risk
+
+Market risk: results from changes in market variables such as interest rates, foreign exchange rates or investment prices.
+
+Although these risks are important to financial institutions, this project focuses primarily on credit risk and the data needed to monitor it.
 ## What is data grain
 Data grain is the combination of columns at which records in a table are unique. Understanding the right data grain is the key to trusted models and efficient transformations. It is critically important because it answers what questions can be answered with data. It impacts storage requirements and query performance. It affects the complexity of the data model and influences data integration capabilities.
 
-## Differences between Credit and Fraud Risk 
 The difference between credit risk and fraud risk: In finance, risk is an inherent thing that individuals and businesses must navigate to achieve their goals. Understanding the various types of risk is vital for effective risk management and informed decision-making. Credit Risk: Credit risk refers to the potential that a borrower may fail to repay a loan or other debt, which can lead to financial losses for the lender or investor. This risk can arise in various financial instruments, such as loans, bonds, credit derivatives, and trade receivables. The borrower’s creditworthiness is among the factors that influence credit risk. Lenders and investors can manage credit risk by conducting in-depth credit evaluations and establishing reasonable interest rates and loan terms, amongst others.
 
-Fraud Risk: Fraud risk refers to the potential that an individual, organisation, or system might engage in deceptive or dishonest activities to achieve financial gain or other benefits. It involves the possibility of misrepresenting information, manipulating transactions, or exploiting vulnerabilities to deceive others. Organisations often assess and manage fraud risk to prevent or mitigate the impact of fraudulent activities.
+Fraud Risk: Fraud risk refers to the potential that an individual, organisation, or system might engage in deceptive or dishonest activities to achieve financial gain or other benefits. It involves the possibility of misrepresenting information, manipulating transactions, or exploiting vulnerabilities to deceive others. Organisations often assess and manage fraud risk to prevent or mitigate the impact of fraudulent activities.   
 
 Differences between Credit Risk and Fraud Risk: Fraud risk focuses on deception, lies, and fake identities, while credit risk focuses on whether a real person or business simply lacks the money or ability to pay back a loan. Credit risk is evaluated before disbursal, while fraud risk is monitored just after disbursal.
-
 
 
