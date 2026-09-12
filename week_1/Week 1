@@ -1,35 +1,7 @@
 ## Credit Risk Analysis at Cedar MFB — Week 1
 ## Understanding Risk in Financial Services
 
-Before focusing specifically on credit risk, I first looked at the different types of risk that a financial institution can face.
-
- Credit risk is the risk that a borrower will fail to meet their financial obligations according to the agreed terms.
- 
-  For a microfinance bank, examples include:
-
-- A customer failing to repay a loan.
-- A customer making only partial repayments.
-- A borrower becoming seriously delinquent.
-- A loan eventually being written off.
-
-Credit risk is the main focus of this project.
-
-Fraud Risk: Fraud risk relates to intentional deception designed to obtain money, avoid an obligation or manipulate a financial process.
-For example, a person could provide false information during a loan application or use another person's identity.
-
-Although fraud and credit risk can sometimes overlap, they are not the same thing. A customer who cannot repay a genuine loan may represent credit risk, while a person who deliberately provides false information to obtain a loan may represent fraud risk.
-
-Operational Risk: Operational risk arises from failures in internal processes, people, systems or external events.
-For example: A system incorrectly records a repayment.
-An employee enters the wrong loan amount.
-A technical failure prevents a payment from being processed.
-
-Liquidity Risk: Liquidity risk is the risk that an institution does not have enough available funds to meet its financial obligations when they become due. For a lender, this is important because the institution needs enough liquidity to meet withdrawals, operating expenses and other obligations.
-Market Risk
-
-Market risk: results from changes in market variables such as interest rates, foreign exchange rates or investment prices.
-
-Although these risks are important to financial institutions, this project focuses primarily on credit risk and the data needed to monitor it.
+.
 ## What is data grain
 Data grain is the combination of columns at which records in a table are unique. Understanding the right data grain is the key to trusted models and efficient transformations. It is critically important because it answers what questions can be answered with data. It impacts storage requirements and query performance. It affects the complexity of the data model and influences data integration capabilities.
 
