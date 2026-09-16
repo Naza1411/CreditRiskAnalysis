@@ -46,9 +46,7 @@ Each schedule contains:
 
 The processing fee is charged once in the first repayment period.
 
-For example, for a ₦50,000 loan at a 4% monthly rate over three months, the interest is calculated on the original ₦50,000 for each month.
-
----
+For example, for a ₦50,000 loan at a 3% monthly rate over three months, the interest is calculated on the original ₦50,000 for each month.
 
 ## 3. Reducing-Balance Amortisation Schedule
 
@@ -68,21 +66,19 @@ The schedule contains the same key fields:
 
 This allowed me to compare how the same loan behaves under different interest calculation methods.
 
----
 
 ## 4. Scenario Comparison
 
-To understand the effect of loan size and tenor, I compared three scenarios using a **48% annual rate / 4% monthly rate**:
+To understand the effect of loan size and tenor, I compared three scenarios using a **30% annual rate / 3% monthly rate**:
 
 | Scenario | Principal |      Term | Flat Total Repayment | Reducing-Balance Total |  Difference |
 | -------- | --------: | --------: | -------------------: | ---------------------: | ----------: |
-| 1        |   ₦50,000 |  3 months |              ₦57,000 |             ₦55,052.28 |   ₦1,947.72 |
-| 2        |  ₦150,000 |  6 months |             ₦191,000 |            ₦176,685.71 |  ₦14,314.29 |
-| 3        |  ₦500,000 | 12 months |             ₦752,500 |            ₦651,813.04 | ₦100,686.96 |
+| 1        |   ₦50,000 |  3 months |              ₦54,750 |                ₦53,521 |   ₦1,229    |
+| 2        |  ₦150,000 |  6 months |             ₦177,500 |            ₦176,685.71 |   ₦9,105    |
+| 3        |  ₦500,000 | 12 months |             ₦653,000 |            ₦651,813.04 |  ₦65,077    |
 
-For the ₦500,000/12-month scenario, a **₦12,500 processing fee** was used as an assumption because there was no matching ₦500,000 loan in the portfolio. The assumption was made using a 2.5% fee-to-principal ratio observed among larger loans in the dataset and was left editable in the workbook.
+For the ₦500,000/12-month scenario, a **₦5,000 processing fee** was used as an assumption because there was no matching ₦500,000 loan in the portfolio. The assumption was made using a 2.5% fee-to-principal ratio observed among larger loans in the dataset and was left editable in the workbook.
 
----
 
 ## 5. Affordability Analysis
 
@@ -90,21 +86,19 @@ I calculated both the average monthly instalment under the flat-rate method and 
 
 For the three scenarios:
 
-* **₦50,000 for 3 months:** flat monthly repayment = ₦19,000; reducing-balance EMI ≈ ₦18,017.
-* **₦150,000 for 6 months:** flat monthly repayment ≈ ₦31,833; reducing-balance EMI ≈ ₦28,614.
-* **₦500,000 for 12 months:** flat monthly repayment ≈ ₦62,708; reducing-balance EMI ≈ ₦53,276.
+* **₦50,000 for 3 months:** flat monthly repayment = ₦ 17,917; reducing-balance EMI ≈ ₦18,017.
+* **₦150,000 for 6 months:** flat monthly repayment ≈ ₦ 28,750; reducing-balance EMI ≈ ₦28,614.
+* **₦500,000 for 12 months:** flat monthly repayment ≈ ₦54,167; reducing-balance EMI ≈ ₦53,276.
 
 The analysis showed that the difference between the two methods becomes more significant as **loan size and repayment period increase**.
 
 The effective cost of the flat-rate method in the scenarios was approximately **14.0%, 27.3% and 50.5% of principal**, compared with approximately **10.1%, 17.8% and 30.4%** under reducing balance.
 
----
-
 ## Key Learning
 
 The main lesson from this exercise was that the **headline interest rate alone does not provide a complete picture of borrowing cost**.
 
-A 4% monthly flat-rate loan and a 4% monthly reducing-balance loan use the same stated rate but produce different total repayment amounts because interest is calculated on different balances.
+A 3% monthly flat-rate loan and a 3% monthly reducing-balance loan use the same stated rate but produce different total repayment amounts because interest is calculated on different balances.
 
 With a flat rate, interest continues to be calculated on the original principal even after part of the principal has been repaid. With reducing balance, interest is recalculated based on the outstanding principal.
 
