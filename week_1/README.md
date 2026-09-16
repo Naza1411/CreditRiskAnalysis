@@ -1,7 +1,5 @@
-## Week 1 -Credit Risk Analysis at Cedar MFB 
-
-## Building the Data Foundation and Understanding the Lending Lifecycle
-#### Introduction
+## Week 1 - Building the Data Foundation and Understanding the Lending Lifecycle
+#### Project Overview
 
 As part of my journey into credit-risk analysis, I am taking on a simulated role as a Junior Credit-Risk Analyst at Cedar MFB, a fictional Nigerian microfinance bank.
 ## Understanding Risk in Financial Services

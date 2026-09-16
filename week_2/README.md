@@ -1,5 +1,4 @@
-# Loan Repayment & Amortisation Analysis -Week 2
-
+## Week 2-Loan Repayment & Amortisation Analysis
 ## Overview
 In Week 2, I developed an Excel-based loan repayment and amortisation model for Cedar MFB. The objective was to understand how loan pricing and repayment methods affect instalments, total repayment, outstanding balances and borrower affordability.
 

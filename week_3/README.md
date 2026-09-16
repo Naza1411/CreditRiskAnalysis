@@ -1,5 +1,5 @@
 ### Week 3 - Loan Repayment Tracker
-#### Project Overview
+#### Overview
 This project develops an Excel-based loan repayment tracker for Cedar Microfinance Bank (Cedar MFB).
 The objective is to build a synthetic repayment dataset and use it to monitor loan performance, calculate arrears and Days Past Due (DPD), classify loans into delinquency buckets, identify data-quality exceptions, and demonstrate how payment-allocation methodology can affect loan-level delinquency reporting.
 
