@@ -57,3 +57,14 @@ I also explored creating reusable SQL views for the **application funnel** and *
 ## Key Takeaway
 
 Week 5 strengthened my ability to move from spreadsheet-based credit analysis to database-driven analysis. I learned that reliable SQL analysis is not only about writing queries that return results, but also about understanding data grain, choosing correct denominators, controlling for duplication, and validating the underlying data.
+
+Sorting
+
+SELECT column_1,
+       column_2
+FROM table_1
+ORDER BY column_1 DESC;
+Copy
+We use ORDER BY to sort rows by a specific column.
+ORDER BY column_1: Ascending order (lowest to highest A-Z, 0-9)
+ORDER BY column_1 DESC: Descending order (highest to lowest Z-A, 9-0)

@@ -9,9 +9,7 @@ Load the Cedar MFB synthetic tables into a SQL database and answer basic portfol
 Study `SELECT`, `WHERE`, `CASE`, `GROUP BY`, aggregate functions, null handling, distinct counts and the logical order of SQL execution.
 
 ### Build — 6 hours
-
 Write queries that answer:
-
 1. How many applications, approvals and disbursements occurred each month?
 2. What are approval, acceptance and disbursement rates?
 3. What are total and average principal by product?
@@ -22,7 +20,6 @@ Write queries that answer:
 For each answer, state the grain, denominator, date range and exclusions.
 
 ### Submit
-
 - SQL table-creation and data-loading script
 - `week_05_analysis.sql`
 - Query-results workbook or CSV files
@@ -38,4 +35,3 @@ For each answer, state the grain, denominator, date range and exclusions.
 ### Stretch task
 
 Create reusable views for the application funnel and loan portfolio.
-
